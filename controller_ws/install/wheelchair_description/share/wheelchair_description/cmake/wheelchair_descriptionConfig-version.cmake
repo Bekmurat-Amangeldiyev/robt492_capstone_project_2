@@ -1,0 +1,1 @@
+/home/robot/beka_gau/build/wheelchair_description/ament_cmake_core/wheelchair_descriptionConfig-version.cmake

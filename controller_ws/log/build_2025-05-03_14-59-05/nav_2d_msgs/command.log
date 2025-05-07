@@ -1,0 +1,6 @@
+Invoking command in '/home/robot/beka_gau/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot/beka_gau/src/ros-planning/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/robot/beka_gau/install/nav_2d_msgs
+Invoked command in '/home/robot/beka_gau/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot/beka_gau/src/ros-planning/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/robot/beka_gau/install/nav_2d_msgs
+Invoking command in '/home/robot/beka_gau/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/beka_gau/build/nav_2d_msgs -- -j12 -l12
+Invoked command in '/home/robot/beka_gau/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/beka_gau/build/nav_2d_msgs -- -j12 -l12
+Invoking command in '/home/robot/beka_gau/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/beka_gau/build/nav_2d_msgs
+Invoked command in '/home/robot/beka_gau/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/beka_gau/build/nav_2d_msgs

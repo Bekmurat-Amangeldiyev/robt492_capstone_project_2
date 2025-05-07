@@ -1,0 +1,3 @@
+[console_scripts]
+udp_twist = my_python_pkg.udp_twist_bridge:main
+

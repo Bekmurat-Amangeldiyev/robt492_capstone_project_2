@@ -1,0 +1,52 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robot/beka_gau/build/nav2_rosdevday_2021
+-- Install configuration: ""
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/launch
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/launch/system_launch.py
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/maps
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/maps/keepout_rotated2.pgm
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/maps/keepout2.yaml
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/maps/lanes_rotated.pgm
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/maps/lanes.yaml
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/params
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/params/basic_params.yaml
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts/nav_through_poses_demo.py
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts/nav_to_pose_demo.py
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts/robot_navigator.py
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts/waypoint_follower_demo.py
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts/security_demo.py
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts/picking_demo.py
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts/inspection_demo.py
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/worlds
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/worlds/industrial_sim.world
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/ament_index/resource_index/package_run_dependencies/nav2_rosdevday_2021
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/ament_index/resource_index/parent_prefix_path/nav2_rosdevday_2021
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/environment/ament_prefix_path.sh
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/environment/ament_prefix_path.dsv
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/environment/path.sh
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/environment/path.dsv
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/local_setup.bash
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/local_setup.sh
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/local_setup.zsh
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/local_setup.dsv
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/package.dsv
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/ament_index/resource_index/packages/nav2_rosdevday_2021
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/cmake/nav2_rosdevday_2021Config.cmake
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/cmake/nav2_rosdevday_2021Config-version.cmake
+-- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/package.xml

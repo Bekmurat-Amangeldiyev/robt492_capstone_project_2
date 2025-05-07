@@ -1,0 +1,293 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.101s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d37f9f53400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d37f9f52e30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d37f9f52e30>>, mixin_verb=('build',))
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.262s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robot/beka_gau'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_python_pkg' with type 'ros.ament_python' and name 'my_python_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main) by extensions ['cmake', 'python']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/media) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/media) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/media) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/media) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/media) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/media) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/media) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/media) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/media) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/media) by extensions ['cmake', 'python']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/media) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/media) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/media) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/media) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/nav2_rosdevday_2021) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/nav2_rosdevday_2021) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/nav2_rosdevday_2021) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/nav2_rosdevday_2021) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/nav2_rosdevday_2021) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/nav2_rosdevday_2021) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/nav2_rosdevday_2021) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/nav2_rosdevday_2021) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_rosdevday_2021-main/nav2_rosdevday_2021) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_rosdevday_2021-main/nav2_rosdevday_2021' with type 'ros.ament_cmake' and name 'nav2_rosdevday_2021'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelchair_description) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheelchair_description' with type 'ros.ament_cmake' and name 'wheelchair_description'
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.308s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/robot/beka_gau/install
+[0.310s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 381 installed packages in /opt/ros/humble
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_target' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.355s] DEBUG:colcon.colcon_core.verb:Building package 'my_python_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/beka_gau/build/my_python_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/beka_gau/install/my_python_pkg', 'merge_install': False, 'path': '/home/robot/beka_gau/src/my_python_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'nav2_rosdevday_2021' build argument 'cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'nav2_rosdevday_2021' build argument 'cmake_target' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'nav2_rosdevday_2021' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'nav2_rosdevday_2021' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'nav2_rosdevday_2021' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'nav2_rosdevday_2021' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'nav2_rosdevday_2021' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'nav2_rosdevday_2021' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'nav2_rosdevday_2021' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_rosdevday_2021' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/beka_gau/build/nav2_rosdevday_2021', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/beka_gau/install/nav2_rosdevday_2021', 'merge_install': False, 'path': '/home/robot/beka_gau/src/nav2_rosdevday_2021-main/nav2_rosdevday_2021', 'symlink_install': False, 'test_result_base': None}
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_description' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_description' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'wheelchair_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'wheelchair_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/beka_gau/build/wheelchair_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/beka_gau/install/wheelchair_description', 'merge_install': False, 'path': '/home/robot/beka_gau/src/wheelchair_description', 'symlink_install': False, 'test_result_base': None}
+[0.356s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.357s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.357s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robot/beka_gau/src/my_python_pkg' with build type 'ament_python'
+[0.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_python_pkg', 'ament_prefix_path')
+[0.359s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/beka_gau/install/my_python_pkg/share/my_python_pkg/hook/ament_prefix_path.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/beka_gau/install/my_python_pkg/share/my_python_pkg/hook/ament_prefix_path.dsv'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/beka_gau/install/my_python_pkg/share/my_python_pkg/hook/ament_prefix_path.sh'
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.365s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/beka_gau/src/nav2_rosdevday_2021-main/nav2_rosdevday_2021' with build type 'ament_cmake'
+[0.365s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/beka_gau/src/nav2_rosdevday_2021-main/nav2_rosdevday_2021'
+[0.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.369s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/beka_gau/src/wheelchair_description' with build type 'ament_cmake'
+[0.369s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/beka_gau/src/wheelchair_description'
+[0.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.612s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robot/beka_gau/src/my_python_pkg'
+[0.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/beka_gau/build/nav2_rosdevday_2021': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/beka_gau/install/nav2_simple_commander:/home/robot/beka_gau/install/nav2_gazebo_spawner:/home/robot/beka_gau/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/robot/beka_gau/build/nav2_rosdevday_2021 -- -j12 -l12
+[0.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/beka_gau/build/wheelchair_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/beka_gau/install/nav2_simple_commander:/home/robot/beka_gau/install/nav2_gazebo_spawner:/home/robot/beka_gau/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/robot/beka_gau/build/wheelchair_description -- -j12 -l12
+[0.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/beka_gau/build/nav2_rosdevday_2021' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/beka_gau/install/nav2_simple_commander:/home/robot/beka_gau/install/nav2_gazebo_spawner:/home/robot/beka_gau/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/robot/beka_gau/build/nav2_rosdevday_2021 -- -j12 -l12
+[0.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/beka_gau/build/nav2_rosdevday_2021': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/beka_gau/install/nav2_simple_commander:/home/robot/beka_gau/install/nav2_gazebo_spawner:/home/robot/beka_gau/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/robot/beka_gau/build/nav2_rosdevday_2021
+[0.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/beka_gau/build/wheelchair_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/beka_gau/install/nav2_simple_commander:/home/robot/beka_gau/install/nav2_gazebo_spawner:/home/robot/beka_gau/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/robot/beka_gau/build/wheelchair_description -- -j12 -l12
+[0.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/beka_gau/build/wheelchair_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/beka_gau/install/nav2_simple_commander:/home/robot/beka_gau/install/nav2_gazebo_spawner:/home/robot/beka_gau/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/robot/beka_gau/build/wheelchair_description
+[0.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_rosdevday_2021)
+[0.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/beka_gau/build/nav2_rosdevday_2021' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/beka_gau/install/nav2_simple_commander:/home/robot/beka_gau/install/nav2_gazebo_spawner:/home/robot/beka_gau/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/robot/beka_gau/build/nav2_rosdevday_2021
+[0.683s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/nav2_rosdevday_2021' for CMake module files
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/nav2_rosdevday_2021' for CMake config files
+[0.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_rosdevday_2021', 'cmake_prefix_path')
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/hook/cmake_prefix_path.ps1'
+[0.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/hook/cmake_prefix_path.dsv'
+[0.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/hook/cmake_prefix_path.sh'
+[0.687s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/nav2_rosdevday_2021/bin'
+[0.687s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/nav2_rosdevday_2021/lib/pkgconfig/nav2_rosdevday_2021.pc'
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/nav2_rosdevday_2021/lib/python3.10/site-packages'
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/nav2_rosdevday_2021/bin'
+[0.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/package.ps1'
+[0.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/package.dsv'
+[0.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/package.sh'
+[0.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/package.bash'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/package.zsh'
+[0.691s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/beka_gau/install/nav2_rosdevday_2021/share/colcon-core/packages/nav2_rosdevday_2021)
+[0.692s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_rosdevday_2021)
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/nav2_rosdevday_2021' for CMake module files
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/nav2_rosdevday_2021' for CMake config files
+[0.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_rosdevday_2021', 'cmake_prefix_path')
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/hook/cmake_prefix_path.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/hook/cmake_prefix_path.dsv'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/hook/cmake_prefix_path.sh'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/nav2_rosdevday_2021/bin'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/nav2_rosdevday_2021/lib/pkgconfig/nav2_rosdevday_2021.pc'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/nav2_rosdevday_2021/lib/python3.10/site-packages'
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/nav2_rosdevday_2021/bin'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/package.ps1'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/package.dsv'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/package.sh'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/package.bash'
+[0.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/package.zsh'
+[0.698s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/beka_gau/install/nav2_rosdevday_2021/share/colcon-core/packages/nav2_rosdevday_2021)
+[0.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheelchair_description)
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/wheelchair_description' for CMake module files
+[0.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/beka_gau/build/wheelchair_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/beka_gau/install/nav2_simple_commander:/home/robot/beka_gau/install/nav2_gazebo_spawner:/home/robot/beka_gau/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/robot/beka_gau/build/wheelchair_description
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/wheelchair_description' for CMake config files
+[0.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelchair_description', 'cmake_prefix_path')
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/hook/cmake_prefix_path.ps1'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/hook/cmake_prefix_path.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/hook/cmake_prefix_path.sh'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/wheelchair_description/bin'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/wheelchair_description/lib/pkgconfig/wheelchair_description.pc'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/wheelchair_description/lib/python3.10/site-packages'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/wheelchair_description/bin'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/package.ps1'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/package.dsv'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/package.sh'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/package.bash'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/package.zsh'
+[0.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/beka_gau/install/wheelchair_description/share/colcon-core/packages/wheelchair_description)
+[0.706s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheelchair_description)
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/wheelchair_description' for CMake module files
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/wheelchair_description' for CMake config files
+[0.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelchair_description', 'cmake_prefix_path')
+[0.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/hook/cmake_prefix_path.ps1'
+[0.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/hook/cmake_prefix_path.dsv'
+[0.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/hook/cmake_prefix_path.sh'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/wheelchair_description/bin'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/wheelchair_description/lib/pkgconfig/wheelchair_description.pc'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/wheelchair_description/lib/python3.10/site-packages'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/wheelchair_description/bin'
+[0.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/package.ps1'
+[0.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/package.dsv'
+[0.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/package.sh'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/package.bash'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/package.zsh'
+[0.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/beka_gau/install/wheelchair_description/share/colcon-core/packages/wheelchair_description)
+[0.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/beka_gau/src/my_python_pkg': PYTHONPATH=/home/robot/beka_gau/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/beka_gau/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/robot/beka_gau/build/my_python_pkg/build install --record /home/robot/beka_gau/build/my_python_pkg/install.log --single-version-externally-managed install_data
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/my_python_pkg' for CMake module files
+[1.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/beka_gau/src/my_python_pkg' returned '0': PYTHONPATH=/home/robot/beka_gau/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/beka_gau/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/robot/beka_gau/build/my_python_pkg/build install --record /home/robot/beka_gau/build/my_python_pkg/install.log --single-version-externally-managed install_data
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/my_python_pkg' for CMake config files
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/my_python_pkg/lib'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/my_python_pkg/bin'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/my_python_pkg/lib/pkgconfig/my_python_pkg.pc'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/my_python_pkg/lib/python3.10/site-packages'
+[1.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_python_pkg', 'pythonpath')
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/beka_gau/install/my_python_pkg/share/my_python_pkg/hook/pythonpath.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/beka_gau/install/my_python_pkg/share/my_python_pkg/hook/pythonpath.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/beka_gau/install/my_python_pkg/share/my_python_pkg/hook/pythonpath.sh'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/robot/beka_gau/install/my_python_pkg/bin'
+[1.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_python_pkg)
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/my_python_pkg/share/my_python_pkg/package.ps1'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/beka_gau/install/my_python_pkg/share/my_python_pkg/package.dsv'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/my_python_pkg/share/my_python_pkg/package.sh'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/my_python_pkg/share/my_python_pkg/package.bash'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/beka_gau/install/my_python_pkg/share/my_python_pkg/package.zsh'
+[1.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/beka_gau/install/my_python_pkg/share/colcon-core/packages/my_python_pkg)
+[1.223s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.223s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.223s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.223s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.228s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.228s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.228s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.238s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.238s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/beka_gau/install/local_setup.ps1'
+[1.239s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robot/beka_gau/install/_local_setup_util_ps1.py'
+[1.241s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/beka_gau/install/setup.ps1'
+[1.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/beka_gau/install/local_setup.sh'
+[1.243s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robot/beka_gau/install/_local_setup_util_sh.py'
+[1.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/beka_gau/install/setup.sh'
+[1.244s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/beka_gau/install/local_setup.bash'
+[1.245s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/beka_gau/install/setup.bash'
+[1.246s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/beka_gau/install/local_setup.zsh'
+[1.246s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/beka_gau/install/setup.zsh'

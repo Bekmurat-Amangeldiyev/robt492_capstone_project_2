@@ -1,0 +1,6 @@
+Invoking command in '/home/robot/beka_gau/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot/beka_gau/src/ros-planning/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/robot/beka_gau/install/nav2_common
+Invoked command in '/home/robot/beka_gau/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot/beka_gau/src/ros-planning/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/robot/beka_gau/install/nav2_common
+Invoking command in '/home/robot/beka_gau/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/beka_gau/build/nav2_common -- -j12 -l12
+Invoked command in '/home/robot/beka_gau/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/beka_gau/build/nav2_common -- -j12 -l12
+Invoking command in '/home/robot/beka_gau/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/beka_gau/build/nav2_common
+Invoked command in '/home/robot/beka_gau/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/beka_gau/build/nav2_common

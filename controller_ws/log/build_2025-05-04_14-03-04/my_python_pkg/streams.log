@@ -1,0 +1,21 @@
+[3.000s] Invoking command in '/home/robot/beka_gau/src/my_python_pkg': PYTHONPATH=/home/robot/beka_gau/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/beka_gau/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/robot/beka_gau/build/my_python_pkg/build install --record /home/robot/beka_gau/build/my_python_pkg/install.log --single-version-externally-managed install_data
+[4.231s] running egg_info
+[4.234s] writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO
+[4.235s] writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt
+[4.236s] writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt
+[4.237s] writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt
+[4.237s] writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt
+[4.246s] reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[4.250s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[4.251s] running build
+[4.251s] running build_py
+[4.252s] running install
+[4.253s] running install_lib
+[4.259s] running install_data
+[4.260s] running install_egg_info
+[4.268s] removing '/home/robot/beka_gau/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[4.269s] Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /home/robot/beka_gau/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info
+[4.273s] running install_scripts
+[4.368s] Installing udp_twist script to /home/robot/beka_gau/install/my_python_pkg/lib/my_python_pkg
+[4.369s] writing list of installed files to '/home/robot/beka_gau/build/my_python_pkg/install.log'
+[4.445s] Invoked command in '/home/robot/beka_gau/src/my_python_pkg' returned '0': PYTHONPATH=/home/robot/beka_gau/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/beka_gau/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/robot/beka_gau/build/my_python_pkg/build install --record /home/robot/beka_gau/build/my_python_pkg/install.log --single-version-externally-managed install_data

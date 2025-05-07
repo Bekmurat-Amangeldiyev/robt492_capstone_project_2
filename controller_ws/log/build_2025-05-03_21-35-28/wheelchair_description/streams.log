@@ -1,0 +1,111 @@
+[0.010s] Invoking command in '/home/robot/beka_gau/build/wheelchair_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/beka_gau/install/nav2_simple_commander:/home/robot/beka_gau/install/nav2_gazebo_spawner:/opt/ros/humble /usr/bin/cmake /home/robot/beka_gau/src/wheelchair_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/beka_gau/install/wheelchair_description
+[0.022s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.133s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.201s] -- Configuring done
+[0.204s] -- Generating done
+[0.205s] -- Build files have been written to: /home/robot/beka_gau/build/wheelchair_description
+[0.207s] Invoked command in '/home/robot/beka_gau/build/wheelchair_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/beka_gau/install/nav2_simple_commander:/home/robot/beka_gau/install/nav2_gazebo_spawner:/opt/ros/humble /usr/bin/cmake /home/robot/beka_gau/src/wheelchair_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/beka_gau/install/wheelchair_description
+[0.209s] Invoking command in '/home/robot/beka_gau/build/wheelchair_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/beka_gau/install/nav2_simple_commander:/home/robot/beka_gau/install/nav2_gazebo_spawner:/opt/ros/humble /usr/bin/cmake --build /home/robot/beka_gau/build/wheelchair_description -- -j12 -l12
+[0.244s] Invoked command in '/home/robot/beka_gau/build/wheelchair_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/beka_gau/install/nav2_simple_commander:/home/robot/beka_gau/install/nav2_gazebo_spawner:/opt/ros/humble /usr/bin/cmake --build /home/robot/beka_gau/build/wheelchair_description -- -j12 -l12
+[0.254s] Invoking command in '/home/robot/beka_gau/build/wheelchair_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/beka_gau/install/nav2_simple_commander:/home/robot/beka_gau/install/nav2_gazebo_spawner:/opt/ros/humble /usr/bin/cmake --install /home/robot/beka_gau/build/wheelchair_description
+[0.260s] -- Install configuration: ""
+[0.261s] -- Execute custom install script
+[0.261s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//launch/rtab_sim_demo.launch.py
+[0.269s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//launch/simulation.launch.py
+[0.277s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//launch/spawn_robot.launch.py
+[0.285s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//launch/state_robot_publisher.launch.py
+[0.293s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//launch/wheelchair_visualize.launch.py
+[0.301s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/controller.yaml
+[0.309s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/diff_drive_controller.yaml
+[0.317s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/ekf.yaml
+[0.324s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/ekf_localization.yaml
+[0.333s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/gz_bridge.yaml
+[0.341s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/my_controllers.yaml
+[0.349s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/nav2_params.yaml
+[0.356s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/nav2_params2.yaml
+[0.364s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/robot_localization.yaml
+[0.372s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/wheelchair.yaml
+[0.380s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/BackWheel_L.STL
+[0.388s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/BackWheel_R.STL
+[0.396s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/IMU.STL
+[0.404s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/backCam.STL
+[0.412s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/backcam.dae
+[0.420s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/backwheel_r.dae
+[0.428s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/base_link.STL
+[0.437s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/base_link.dae
+[0.444s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/base_link3.STL
+[0.453s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/camera.STL
+[0.460s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontCam.STL
+[0.468s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontSupport_L.STL
+[0.476s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontSupport_R.STL
+[0.484s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontWheel_L.STL
+[0.492s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontWheel_R.STL
+[0.500s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontcam.dae
+[0.508s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontsupport_l.dae
+[0.515s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontsupport_r.dae
+[0.523s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontwheel_l.dae
+[0.532s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontwheel_r.dae
+[0.540s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/imu.dae
+[0.548s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/wheel1.STL
+[0.556s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/wheel2.STL
+[0.563s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/wheel3.STL
+[0.571s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/wheel4.STL
+[0.579s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/wheelchair.srdf
+[0.587s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/empty_world.world
+[0.595s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/harmonic.sdf
+[0.603s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/industrial-warehouse.sdf
+[0.611s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/industrial_warehouse.sdf
+[0.619s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/model.config
+[0.627s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/model.sdf
+[0.636s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/my_world.world
+[0.644s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/simple.world
+[0.651s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/small_house.world
+[0.659s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/thumbnails/1.png
+[0.667s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/thumbnails/2.png
+[0.675s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/thumbnails/3.png
+[0.683s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/thumbnails/4.png
+[0.691s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/thumbnails/5.png
+[0.698s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/tugbot_depot.sdf
+[0.707s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/turtlebot3_world.world
+[0.716s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/world_dynamic.world
+[0.724s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/imu_sensor.xacro
+[0.733s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/materials.xacro
+[0.741s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/rtab.rviz
+[0.749s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/urdf.rviz
+[0.757s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wcurdf.urdf
+[0.766s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair.gazebo
+[0.775s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair.trans
+[0.783s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair.urdf
+[0.792s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair.xacro
+[0.800s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair_body.urdf
+[0.808s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair_calibration.urdf
+[0.816s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair_depthcamera.urdf
+[0.824s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair_full.urdf
+[0.833s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair_gazebo.urdf
+[0.841s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair_new.urdf
+[0.848s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//src/cmd_vel_republisher.py
+[0.857s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//src/inspection_demo.py
+[0.864s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//src/nav2_simulations.launch.py
+[0.872s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//src/nav_through_poses_demo.py
+[0.880s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//src/nav_to_pose_demo.py
+[0.888s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//src/picking_demo.py
+[0.896s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//src/robot_navigator.py
+[0.904s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//src/security_demo.py
+[0.912s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//src/udp_twist_bridge.py
+[0.920s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//src/waypoint_follower_demo.py
+[0.928s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/ament_index/resource_index/package_run_dependencies/wheelchair_description
+[0.937s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/ament_index/resource_index/parent_prefix_path/wheelchair_description
+[0.945s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/environment/ament_prefix_path.sh
+[0.953s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/environment/ament_prefix_path.dsv
+[0.960s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/environment/path.sh
+[0.969s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/environment/path.dsv
+[0.976s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/local_setup.bash
+[0.984s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/local_setup.sh
+[0.992s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/local_setup.zsh
+[1.000s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/local_setup.dsv
+[1.008s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/package.dsv
+[1.016s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/ament_index/resource_index/packages/wheelchair_description
+[1.024s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/cmake/wheelchair_descriptionConfig.cmake
+[1.032s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/cmake/wheelchair_descriptionConfig-version.cmake
+[1.040s] -- Symlinking: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/package.xml
+[1.051s] Invoked command in '/home/robot/beka_gau/build/wheelchair_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/beka_gau/install/nav2_simple_commander:/home/robot/beka_gau/install/nav2_gazebo_spawner:/opt/ros/humble /usr/bin/cmake --install /home/robot/beka_gau/build/wheelchair_description

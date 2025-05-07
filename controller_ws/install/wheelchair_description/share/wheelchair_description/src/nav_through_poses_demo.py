@@ -1,0 +1,1 @@
+/home/robot/beka_gau/src/wheelchair_description/src/nav_through_poses_demo.py

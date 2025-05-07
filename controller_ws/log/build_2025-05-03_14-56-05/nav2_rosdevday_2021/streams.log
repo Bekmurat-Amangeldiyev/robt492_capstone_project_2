@@ -1,0 +1,58 @@
+[0.020s] Invoking command in '/home/robot/beka_gau/build/nav2_rosdevday_2021': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot/beka_gau/src/nav2_rosdevday_2021-main/nav2_rosdevday_2021 -DCMAKE_INSTALL_PREFIX=/home/robot/beka_gau/install/nav2_rosdevday_2021
+[0.254s] -- The C compiler identification is GNU 11.4.0
+[0.458s] -- The CXX compiler identification is GNU 11.4.0
+[0.474s] -- Detecting C compiler ABI info
+[0.592s] -- Detecting C compiler ABI info - done
+[0.615s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.616s] -- Detecting C compile features
+[0.617s] -- Detecting C compile features - done
+[0.622s] -- Detecting CXX compiler ABI info
+[0.759s] -- Detecting CXX compiler ABI info - done
+[0.771s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.771s] -- Detecting CXX compile features
+[0.772s] -- Detecting CXX compile features - done
+[0.779s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.061s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.352s] -- Configuring done
+[1.354s] -- Generating done
+[1.357s] -- Build files have been written to: /home/robot/beka_gau/build/nav2_rosdevday_2021
+[1.366s] Invoked command in '/home/robot/beka_gau/build/nav2_rosdevday_2021' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot/beka_gau/src/nav2_rosdevday_2021-main/nav2_rosdevday_2021 -DCMAKE_INSTALL_PREFIX=/home/robot/beka_gau/install/nav2_rosdevday_2021
+[1.367s] Invoking command in '/home/robot/beka_gau/build/nav2_rosdevday_2021': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/beka_gau/build/nav2_rosdevday_2021 -- -j12 -l12
+[1.432s] Invoked command in '/home/robot/beka_gau/build/nav2_rosdevday_2021' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/beka_gau/build/nav2_rosdevday_2021 -- -j12 -l12
+[1.433s] Invoking command in '/home/robot/beka_gau/build/nav2_rosdevday_2021': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/beka_gau/build/nav2_rosdevday_2021
+[1.452s] -- Install configuration: ""
+[1.452s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/launch
+[1.452s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/launch/system_launch.py
+[1.453s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/maps
+[1.453s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/maps/keepout_rotated2.pgm
+[1.453s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/maps/keepout2.yaml
+[1.453s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/maps/lanes_rotated.pgm
+[1.453s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/maps/lanes.yaml
+[1.454s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/params
+[1.454s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/params/basic_params.yaml
+[1.454s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts
+[1.454s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts/nav_through_poses_demo.py
+[1.454s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts/nav_to_pose_demo.py
+[1.454s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts/robot_navigator.py
+[1.459s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts/waypoint_follower_demo.py
+[1.460s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts/security_demo.py
+[1.460s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts/picking_demo.py
+[1.460s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/scripts/inspection_demo.py
+[1.461s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/worlds
+[1.461s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/worlds/industrial_sim.world
+[1.461s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/ament_index/resource_index/package_run_dependencies/nav2_rosdevday_2021
+[1.462s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/ament_index/resource_index/parent_prefix_path/nav2_rosdevday_2021
+[1.462s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/environment/ament_prefix_path.sh
+[1.462s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/environment/ament_prefix_path.dsv
+[1.462s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/environment/path.sh
+[1.462s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/environment/path.dsv
+[1.463s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/local_setup.bash
+[1.463s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/local_setup.sh
+[1.463s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/local_setup.zsh
+[1.463s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/local_setup.dsv
+[1.463s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/package.dsv
+[1.463s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/ament_index/resource_index/packages/nav2_rosdevday_2021
+[1.464s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/cmake/nav2_rosdevday_2021Config.cmake
+[1.464s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/cmake/nav2_rosdevday_2021Config-version.cmake
+[1.464s] -- Installing: /home/robot/beka_gau/install/nav2_rosdevday_2021/share/nav2_rosdevday_2021/package.xml
+[1.466s] Invoked command in '/home/robot/beka_gau/build/nav2_rosdevday_2021' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/beka_gau/build/nav2_rosdevday_2021

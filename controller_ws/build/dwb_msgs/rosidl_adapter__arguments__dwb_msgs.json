@@ -1,0 +1,14 @@
+{
+  "package_name": "dwb_msgs",
+  "non_idl_tuples": [
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_dwb_controller/dwb_msgs:msg/CriticScore.msg",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_dwb_controller/dwb_msgs:msg/LocalPlanEvaluation.msg",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_dwb_controller/dwb_msgs:msg/Trajectory2D.msg",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_dwb_controller/dwb_msgs:msg/TrajectoryScore.msg",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_dwb_controller/dwb_msgs:srv/DebugLocalPlan.srv",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_dwb_controller/dwb_msgs:srv/GenerateTrajectory.srv",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_dwb_controller/dwb_msgs:srv/GenerateTwists.srv",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_dwb_controller/dwb_msgs:srv/GetCriticScore.srv",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_dwb_controller/dwb_msgs:srv/ScoreTrajectory.srv"
+  ]
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="" schematypens=""?>
+<package format="3">
+  <name>wheelchair_description</name>
+  <version>0.0.0</version>
+  <description>wheelchair_description</description>
+  <maintainer email="alaris@nu.edu.kz">ALARIS</maintainer>
+  <license>Apache 2.0</license>
+  <author>ALARIS</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>robot_localization</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>socket</exec_depend>
+  <exec_depend>json</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

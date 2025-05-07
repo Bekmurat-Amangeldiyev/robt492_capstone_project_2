@@ -1,0 +1,99 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robot/beka_gau/build/wheelchair_description
+-- Install configuration: ""
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//launch
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//launch/wheelchair_visualize.launch.py
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//launch/spawn_robot.launch.py
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//launch/simulation.launch.py
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//launch/state_robot_publisher.launch.py
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/controller.yaml
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/nav2_params2.yaml
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/ekf.yaml
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/ekf_localization.yaml
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/robot_localization.yaml
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/diff_drive_controller.yaml
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//config/nav2_params.yaml
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontwheel_r.dae
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/wheel3.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontsupport_l.dae
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/wheel1.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontwheel_l.dae
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/wheel2.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/base_link.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/base_link.dae
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/imu.dae
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/BackWheel_L.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/wheel4.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/backcam.dae
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontWheel_L.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/base_link3.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/IMU.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/camera.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontCam.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontWheel_R.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/turtlebot3_world.world
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/model.config
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/small_house.world
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/simple.world
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/world_dynamic.world
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/my_world.world
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/model.sdf
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/worlds/empty_world.world
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/backwheel_r.dae
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontcam.dae
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/BackWheel_R.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontSupport_R.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontsupport_r.dae
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/backCam.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/frontSupport_L.STL
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//meshes/wheelchair.srdf
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair_gazebo.urdf
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/materials.xacro
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair.urdf
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair_full.urdf
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair_calibration.urdf
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair_depthcamera.urdf
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wcurdf.urdf
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair.xacro
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair_body.urdf
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair.trans
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/urdf.rviz
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair.gazebo
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//urdf/wheelchair_new.urdf
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//src
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//src/nav2_simulations.launch.py
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description//src/cmd_vel_republisher.py
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/ament_index/resource_index/package_run_dependencies/wheelchair_description
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/ament_index/resource_index/parent_prefix_path/wheelchair_description
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/environment/ament_prefix_path.sh
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/environment/ament_prefix_path.dsv
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/environment/path.sh
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/environment/path.dsv
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/local_setup.bash
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/local_setup.sh
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/local_setup.zsh
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/local_setup.dsv
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/package.dsv
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/ament_index/resource_index/packages/wheelchair_description
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/cmake/wheelchair_descriptionConfig.cmake
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/cmake/wheelchair_descriptionConfig-version.cmake
+-- Installing: /home/robot/beka_gau/install/wheelchair_description/share/wheelchair_description/package.xml

@@ -1,0 +1,79 @@
+[1.344s] Invoking command in '/home/robot/beka_gau/src/ros-planning/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/robot/beka_gau/install/nav2_msgs:/home/robot/beka_gau/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/beka_gau/install/nav2_msgs:/home/robot/beka_gau/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/beka_gau/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robot/beka_gau/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages:/home/robot/beka_gau/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/robot/beka_gau/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/nav2_simple_commander build --build-base /home/robot/beka_gau/build/nav2_simple_commander/build install --record /home/robot/beka_gau/build/nav2_simple_commander/install.log --install-scripts $base/lib/nav2_simple_commander --single-version-externally-managed install_data
+[1.845s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.845s]   warnings.warn(
+[1.865s] running egg_info
+[1.868s] creating ../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+[1.869s] writing ../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[1.869s] writing dependency_links to ../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[1.869s] writing entry points to ../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[1.869s] writing requirements to ../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[1.870s] writing top-level names to ../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[1.870s] writing manifest file '../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.872s] reading manifest file '../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.874s] writing manifest file '../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.874s] running build
+[1.875s] running build_py
+[1.875s] creating /home/robot/beka_gau/build/nav2_simple_commander/build
+[1.875s] creating /home/robot/beka_gau/build/nav2_simple_commander/build/lib
+[1.875s] creating /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.875s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.875s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.875s] copying nav2_simple_commander/example_follow_path.py -> /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.875s] copying nav2_simple_commander/robot_navigator.py -> /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.875s] copying nav2_simple_commander/demo_picking.py -> /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.876s] copying nav2_simple_commander/demo_security.py -> /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.876s] copying nav2_simple_commander/demo_inspection.py -> /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.876s] copying nav2_simple_commander/demo_recoveries.py -> /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.876s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.876s] copying nav2_simple_commander/__init__.py -> /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.877s] running install
+[1.877s] running install_lib
+[1.878s] creating /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.881s] copying /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.881s] copying /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.882s] copying /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.882s] copying /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.882s] copying /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.883s] copying /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.883s] copying /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.883s] copying /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.883s] copying /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.883s] copying /home/robot/beka_gau/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.884s] byte-compiling /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-310.pyc
+[1.886s] byte-compiling /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+[1.887s] byte-compiling /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-310.pyc
+[1.888s] byte-compiling /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-310.pyc
+[1.894s] byte-compiling /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-310.pyc
+[1.896s] byte-compiling /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-310.pyc
+[1.897s] byte-compiling /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-310.pyc
+[1.901s] byte-compiling /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-310.pyc
+[1.904s] byte-compiling /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-310.pyc
+[1.905s] byte-compiling /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-310.pyc
+[1.905s] running install_data
+[1.905s] creating /home/robot/beka_gau/install/nav2_simple_commander/share/ament_index
+[1.905s] creating /home/robot/beka_gau/install/nav2_simple_commander/share/ament_index/resource_index
+[1.906s] creating /home/robot/beka_gau/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.906s] copying resource/nav2_simple_commander -> /home/robot/beka_gau/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.906s] copying package.xml -> /home/robot/beka_gau/install/nav2_simple_commander/share/nav2_simple_commander
+[1.906s] copying launch/warehouse.world -> /home/robot/beka_gau/install/nav2_simple_commander/share/nav2_simple_commander
+[1.906s] copying launch/inspection_demo_launch.py -> /home/robot/beka_gau/install/nav2_simple_commander/share/nav2_simple_commander
+[1.906s] copying launch/nav_to_pose_example_launch.py -> /home/robot/beka_gau/install/nav2_simple_commander/share/nav2_simple_commander
+[1.907s] copying launch/nav_through_poses_example_launch.py -> /home/robot/beka_gau/install/nav2_simple_commander/share/nav2_simple_commander
+[1.907s] copying launch/follow_path_example_launch.py -> /home/robot/beka_gau/install/nav2_simple_commander/share/nav2_simple_commander
+[1.907s] copying launch/recoveries_example_launch.py -> /home/robot/beka_gau/install/nav2_simple_commander/share/nav2_simple_commander
+[1.907s] copying launch/security_demo_launch.py -> /home/robot/beka_gau/install/nav2_simple_commander/share/nav2_simple_commander
+[1.907s] copying launch/waypoint_follower_example_launch.py -> /home/robot/beka_gau/install/nav2_simple_commander/share/nav2_simple_commander
+[1.907s] copying launch/picking_demo_launch.py -> /home/robot/beka_gau/install/nav2_simple_commander/share/nav2_simple_commander
+[1.907s] running install_egg_info
+[1.913s] Copying ../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[1.917s] running install_scripts
+[1.955s] Installing demo_inspection script to /home/robot/beka_gau/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.955s] Installing demo_picking script to /home/robot/beka_gau/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.956s] Installing demo_recoveries script to /home/robot/beka_gau/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.956s] Installing demo_security script to /home/robot/beka_gau/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.956s] Installing example_follow_path script to /home/robot/beka_gau/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.956s] Installing example_nav_through_poses script to /home/robot/beka_gau/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.956s] Installing example_nav_to_pose script to /home/robot/beka_gau/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.956s] Installing example_waypoint_follower script to /home/robot/beka_gau/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.957s] writing list of installed files to '/home/robot/beka_gau/build/nav2_simple_commander/install.log'
+[2.020s] Invoked command in '/home/robot/beka_gau/src/ros-planning/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/robot/beka_gau/install/nav2_msgs:/home/robot/beka_gau/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/beka_gau/install/nav2_msgs:/home/robot/beka_gau/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/beka_gau/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robot/beka_gau/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/beka_gau/install/nav2_simple_commander/lib/python3.10/site-packages:/home/robot/beka_gau/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/robot/beka_gau/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/nav2_simple_commander build --build-base /home/robot/beka_gau/build/nav2_simple_commander/build install --record /home/robot/beka_gau/build/nav2_simple_commander/install.log --install-scripts $base/lib/nav2_simple_commander --single-version-externally-managed install_data

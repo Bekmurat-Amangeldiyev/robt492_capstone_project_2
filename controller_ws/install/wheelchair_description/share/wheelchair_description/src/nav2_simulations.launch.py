@@ -1,0 +1,1 @@
+/home/robot/beka_gau/src/wheelchair_description/src/nav2_simulations.launch.py

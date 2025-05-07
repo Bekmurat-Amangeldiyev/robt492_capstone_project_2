@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="wheelchair"><group name="full_robot"><joint name="joint_BackWheel_R" /><joint name="joint_BackWheel_L" /><joint name="joint_frontSupport_R" /><joint name="joint_frontWheel_R" /><joint name="joint_frontSupport_L" /><joint name="joint_frontWheel_L" /><joint name="joint_IMU" /><joint name="joint_frontCam" /><joint name="joint_backCam" /></group><end_effector name="end_effector" group="full_robot" parent_link="backCam" /><virtual_joint name="virtual_joint" type="floating" parent_frame="world" child_link="base_link" /></robot>

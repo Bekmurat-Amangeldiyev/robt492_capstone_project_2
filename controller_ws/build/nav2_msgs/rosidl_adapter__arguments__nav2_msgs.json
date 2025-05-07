@@ -1,0 +1,31 @@
+{
+  "package_name": "nav2_msgs",
+  "non_idl_tuples": [
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:msg/Costmap.msg",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:msg/CostmapMetaData.msg",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:msg/CostmapFilterInfo.msg",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:msg/SpeedLimit.msg",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:msg/VoxelGrid.msg",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:msg/BehaviorTreeStatusChange.msg",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:msg/BehaviorTreeLog.msg",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:msg/Particle.msg",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:msg/ParticleCloud.msg",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:srv/GetCostmap.srv",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:srv/ClearCostmapExceptRegion.srv",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:srv/ClearCostmapAroundRobot.srv",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:srv/ClearEntireCostmap.srv",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:srv/ManageLifecycleNodes.srv",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:srv/LoadMap.srv",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:srv/SaveMap.srv",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:action/BackUp.action",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:action/ComputePathToPose.action",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:action/ComputePathThroughPoses.action",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:action/FollowPath.action",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:action/NavigateToPose.action",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:action/NavigateThroughPoses.action",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:action/Wait.action",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:action/Spin.action",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:action/DummyRecovery.action",
+    "/home/robot/beka_gau/src/ros-planning/navigation2/nav2_msgs:action/FollowWaypoints.action"
+  ]
+}
